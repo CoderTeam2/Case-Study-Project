@@ -1,0 +1,39 @@
+*{
+    font-family: Italic;
+    font-size: 20px;
+}
+.size{
+    height: 400px;
+    width: 400px;
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.conclusion{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.title{
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {
+        color: orange;
+    }
+    to {
+        color: green;
+    }
+}
+
+.b{
+    border: 2px solid black;
+    padding: 10px;
+}
+ul{
+    list-style: none
+}
